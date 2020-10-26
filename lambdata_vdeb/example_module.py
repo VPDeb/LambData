@@ -13,9 +13,10 @@ def df_cleaner(df):
           ('null:',df.isin(['null']).sum()),
           ('nan:',df.isin(['nan']).sum()))
 
+
 def df_split(df):
-    """Destroys a DF"""
-    tvt = train, val, test = np.split(df.sample(frac=1), [int(.6*len(census)), int(.8*len(census))])
+    """Random Train, Val, Test on a DF"""
+    return train, val, test = np.split(df.sample(frac=1), [int(.6*len(df)), int(.8*len(df))])
     print(('Training Set:',train.head(1)),
         ('Validation Set:',val.head(1)),
         ('Test Set',test.head(1)))

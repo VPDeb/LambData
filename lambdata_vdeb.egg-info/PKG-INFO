@@ -10,7 +10,7 @@ Description: # LambData
         Creating a package in Sprint1
         
 Platform: UNKNOWN
-Classifier: Program Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.8
