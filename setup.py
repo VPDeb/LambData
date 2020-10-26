@@ -7,18 +7,17 @@ import setuptools
 REQUIRED = [
     "numpy",
     'pandas',
-    'random',
 
 ]
 
-with open('README.md', 'r')as files:
-    LONG_DESCRIPTION = file.read()
+with open('README.md', 'r')as fh:
+    LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
     name = 'lambdata-vdeb',
     version = '0.0.1',
-    author = 'vdeb'
-    description = '',
+    author = 'vdeb',
+    description = 'A collection of Data Science Functions',
     long_description = LONG_DESCRIPTION,
     long_description_content = 'text/markdown',
     url = 'https://github.com/VPDeb/LambData',
