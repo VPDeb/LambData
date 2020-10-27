@@ -16,9 +16,9 @@ def df_cleaner(df):
 
 def df_split(df):
     """Random Train, Val, Test on a DF"""
-    return train, val, test = np.split(df.sample(frac=1), [int(.6*len(df)), int(.8*len(df))])
-    print(('Training Set:',train.head(1)),
-        ('Validation Set:',val.head(1)),
-        ('Test Set',test.head(1)))
+    tvt = train, val, test = np.split(df.sample(frac=1), [int(.6*len(df)), int(.8*len(df))])
+    return (('Training Set:',train.shape),
+        ('Validation Set:',val.shape),
+        ('Test Set',test.shape))
 
     

@@ -15,7 +15,7 @@ with open('README.md', 'r')as fh:
 
 setuptools.setup(
     name = 'lambdata-vdeb',
-    version = '0.0.2',
+    version = '0.0.3',
     author = 'vdeb',
     description = 'A collection of Data Science Functions',
     long_description = LONG_DESCRIPTION,
