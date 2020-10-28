@@ -21,6 +21,4 @@ def df_split(df):
         ('Validation Set:',val.shape),
         ('Test Set',test.shape))
 
-
-
     
