@@ -4,7 +4,11 @@
 import pandas as pd
 import numpy as np
 
+#COLOR = ['cyan', 'teal', 'mauve', 'blue', 'crimson']
+#FAVORITE_NUMBERS =[2.73, 101, 55, 12, 3.14]
 
+#def increment(x):
+    #return x + 1
 
 def df_cleaner(df):
     """Cleans a DF"""
